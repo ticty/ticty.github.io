@@ -1,35 +1,33 @@
-permalink: /:year/:month/:day/:title.html
-paginate: 10
-markdown: redcarpet
+permalink:  /:title.html
+paginate:   10
+markdown:   redcarpet
 
 # 作者信息
-author: 
-  name: Anya Lin
-  email: lay.1010@hotmail.com
-  link: http://painterlin.com
-  weibo: http://weibo.com/orangeissweet
-  github: http://github.com/lay1010
-  music: http://site.douban.com/linanya
-  linkedin: https://www.linkedin.com/pub/anya-lin/81/91/232
+author:
+    name:   guofeng
+    email:  guofeng@eatingfirst.com
+    link:   http://blog.eatingfirst.com
+    github: https://github.com/ticty
+    music:  http://www.xiami.com/u/36466652
 
 # 站点信息
-title: 林安亚的博客
-description: My personal blog
-url: http://painterlin.com
-rss_url: /pages/atom.xml
+title:          Ticty's Blog
+description:    Personal Blog
+url:            http://blog.eatingfirst.com
+rss_url:        /pages/atom.xml
 
 # gavatar头像及Favicon
-gavatar: /public/img/deer3.png
-favicon: /public/img/deer3.png
+gavatar:    /public/img/deer3.png
+favicon:    /public/img/deer3.png
 
 # google analytics 设置
 ga:
-  id: UA-54262064-1 
-  url: painterlin.com
+    id:     UA-59482376-1
+    url:    http://blog.eatingfirst.com
 
 # disqus 设置
 disqus:
-  shortname: painterlin
+  shortname: tictyblog
 
 # 主题设置，自动激活某个标签
 active: 读书
