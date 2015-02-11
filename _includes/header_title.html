@@ -1,8 +1,8 @@
 <meta charset="utf-8">
-<title>{{ page.titlename }} | {{ site.title }}</title>
+<title>{{ page.titlename }} - {{ site.title }}</title>
 <meta name="author" content="{{ site.author.name }}">
-{% if page.keywords %}
-  <meta name="keywords" content="{{ page.keywords }}">
+{% if page.tags %}
+  <meta name="keywords" content="{{ page.tags | join: ',' }}">
 {% endif %}
 {% if page.description  %}
   <meta name="description " content="{{ page.description  }}">

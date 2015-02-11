@@ -17,8 +17,8 @@ url:            http://blog.eatingfirst.com
 rss_url:        /pages/atom.xml
 
 # gavatar头像及Favicon
-gavatar:    /public/img/deer.png
-favicon:    /public/img/deer.png
+gavatar:    /public/img/gavatar.ico
+favicon:    /public/img/favicon.png
 
 # google analytics 设置
 ga:
@@ -28,10 +28,6 @@ ga:
 # disqus 设置
 disqus:
     shortname:  tictyblog
-
-# 主题设置，自动激活某个标签
-active: 读书
-
 
 # 中文本地化
 locals:
