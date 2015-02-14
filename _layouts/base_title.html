@@ -17,6 +17,8 @@
     </div>
   </div>
   {% include footer.html %}
-  {% include googleanalytics.html %}
+  {% if site.ga.id %}
+    {% include googleanalytics.html %}
+  {% endif %}
 </body>
 </html>

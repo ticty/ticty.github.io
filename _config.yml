@@ -24,8 +24,12 @@ favicon:    /public/img/favicon.png
 
 # google analytics 设置
 ga:
+    svID:  "7r9GKdBA2gr2OpiaOVyx8YIo4u2KB1XxlAELL-Tk0NY"   #google-site-verification meta id
     id:     UA-59482376-1
     url:    http://blog.eatingfirst.com
+
+ba:
+    svID:  "T9qyldz1xd"    #baidu-site-verification meta id
 
 # disqus 设置
 disqus:

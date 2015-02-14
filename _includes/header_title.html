@@ -5,7 +5,13 @@
   <meta name="keywords" content="{{ page.tags | join: ',' }}">
 {% endif %}
 {% if page.description  %}
-  <meta name="description " content="{{ page.description  }}">
+  <meta name="description" content="{{ page.description }}">
+{% endif %}
+{% if site.ba.svID %}
+    <meta name="baidu-site-verification" content="{{ site.ba.svID }}">
+{% endif %}
+{% if site.ga.svID %}
+    <meta name="google-site-verification" content="{{ site.ga.svID }}">
 {% endif %}
 <link rel="shortcut icon" href="{{ site.favicon }}" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
