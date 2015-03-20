@@ -22,6 +22,7 @@ Take debian based Linux distrubtion as example(mine is Ubuntu 14.04):
 
     # modify the gem source to a faster one
     #  gem source -r https://rubygems.org/
+    #  gem source -r http://rubygems.org/
     #  gem source -a http://mirrors.aliyun.com/rubygems/
 
     # install bundle
@@ -30,7 +31,7 @@ Take debian based Linux distrubtion as example(mine is Ubuntu 14.04):
     # configure for bundle
     # modify the ruby gem source as require
     cd $RepoName
-    echo 'source "http://mirrors.aliyun.com/rubygems/"" > 'Gemfile'
+    echo 'source "http://mirrors.aliyun.com/rubygems/"' > 'Gemfile'
     echo 'gem "github-pages"' >> 'Gemfile'
 
     # install dependence
