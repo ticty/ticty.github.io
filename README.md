@@ -33,6 +33,8 @@ Take debian based Linux distrubtion as example(mine is Ubuntu 14.04):
     cd $RepoName
     echo 'source "http://mirrors.aliyun.com/rubygems/"' > 'Gemfile'
     echo 'gem "github-pages"' >> 'Gemfile'
+    # if run on windows, add below:
+    # echo 'gem "wdm"' >> 'Gemfile'
 
     # install dependence
     bundle install
