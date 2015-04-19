@@ -13,6 +13,7 @@ function nav_click(is_show) {
     $('.aside3-content')
       .removeClass('col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2')
       .addClass('col-md-13');
+    $('#nav_btn i').removeClass('fa-chevron-right').addClass('fa-chevron-left');
   } else {
     /* 隐藏左侧aside */
     $('.aside')
@@ -26,21 +27,21 @@ function nav_click(is_show) {
     $('.aside3-content')
       .removeClass('col-md-13')
       .addClass('col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2'); 
+    $('#nav_btn i').removeClass('fa-chevron-left').addClass('fa-chevron-right');
   }  /*col-md-offset-1 col-lg-offset-2*/
 }
 /* 控制文章章节列表按钮 */
 function content_click(is_show){
   if (is_show) {
     $('#content_table').show();
-    $('#content_btn i').removeClass('fa-plus').addClass('fa-minus');
   } else {
     $('#content_table').hide();
-    $('#content_btn i').removeClass('fa-minus').addClass('fa-plus');
   }
 }
 
 $(document).ready(function() {
   /* 控制左侧 aside 的动作 */
+  $("#nav_btn").data('clicked', false);
   $("#nav_btn").on('click', function() {
     isClicked = $(this).data('clicked');
 
@@ -49,6 +50,7 @@ $(document).ready(function() {
     $(this).data('clicked', !isClicked);
   });
 
+  $("#content_btn").data('clicked', false);
   $("#content_btn").on('click', function(){
     isClicked = $(this).data('clicked');
 
