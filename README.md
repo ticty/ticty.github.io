@@ -32,7 +32,7 @@ gem source -a http://mirrors.aliyun.com/rubygems/
 ruby --version
 ```
 
-如果显示是2.0以下版本，执行以下命令[切换默认ruby版本至2.0][]：
+如果显示是2.0以下版本(如1.9.3)，执行以下命令[切换默认ruby版本至2.0][]：
 
 ```
 cd /usr/bin/
@@ -96,7 +96,6 @@ bundle install
 bundle exec jekyll serve
 ```
 
-//references
 [林安雅的博客]:           <http://painterlin.com/>
 [拷贝]:                   <https://github.com/lay1010/lay1010.github.io>
 [切换默认ruby版本至2.0]:   <http://www.kaijia.me/2014/08/ubuntu-14-04-switch-defaults-to-ruby-2-0/>
